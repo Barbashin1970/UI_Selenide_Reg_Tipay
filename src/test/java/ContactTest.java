@@ -29,7 +29,7 @@ public class ContactTest {
         $(byName("Textarea")).setValue(MESSAGE);
         $(byText("Отправить")).shouldBe(enabled);
         $(byText("Отправить")).click();
-            Thread.sleep(5000);
+        Thread.sleep(5000);
     }
 
 
