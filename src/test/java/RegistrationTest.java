@@ -18,7 +18,7 @@ public class RegistrationTest {
     public void checkCorrectData() {
         // создаём драйвер для браузера Chrome - по умолчанию
         // открываем главную страницу сайта
-        open("https://tipay.ru/");
+        open("https://gaimp.ru/");
         // Нажимаем кнопку регистрации на главной странице
         $(byText("Регистрация")).shouldBe(enabled);
         $(byText("Регистрация")).click();
